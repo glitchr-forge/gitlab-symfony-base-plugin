@@ -2,14 +2,19 @@
   "name": "glitchr/base-plugin",
   "type": "composer-plugin",
   "description": "Base plugin integration for Symfony",
-  "keywords": ["symfony", "base", "helper", "plugin"],
-  "homepage": "https://gitlab.glitchr.dev/public-repository/symfony",
+  "keywords": [
+    "symfony",
+    "base",
+    "helper",
+    "plugin"
+  ],
+  "homepage": "https://github.com/glitchr-studio/base-plugin",
   "license": "LGPL-3.0-or-later",
   "authors": [
-      {
-          "name": "Marco Meyer",
-          "email": "marco.meyer@glitchr.io"
-      }
+    {
+      "name": "Marco Meyer",
+      "email": "marco.meyer@glitchr.io"
+    }
   ],
   "require": {
     "php": "^8.0",
@@ -30,8 +35,12 @@
     }
   },
   "config": {
-    "platform": { "php": "8.0" },
-    "preferred-install": { "*": "dist" },
+    "platform": {
+      "php": "8.0"
+    },
+    "preferred-install": {
+      "*": "dist"
+    },
     "sort-packages": true
   },
   "scripts": {
