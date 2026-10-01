@@ -64,7 +64,7 @@ abstract class AbstractStub implements StubInterface
 
     public function getClassPath(): string
     {
-        return dirname(__FILE__, 4) . "/base-bundle/src/".$this->getStubName();
+        return dirname(__FILE__, 4) . "/omnibase/src/".$this->getStubName();
     }
 
     public function getClassFiles(): array

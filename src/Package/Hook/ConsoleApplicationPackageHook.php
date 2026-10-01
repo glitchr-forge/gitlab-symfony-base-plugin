@@ -10,7 +10,7 @@ final class ConsoleApplicationPackageHook extends AbstractHook
 {
     public function getPackageName(): string
     {
-        return 'glitchr/base-bundle';
+        return 'glitchr/omnibase';
     }
 
     public function getPackageRequirements(): string
